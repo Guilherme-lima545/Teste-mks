@@ -1,0 +1,812 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.App-header {
+  background-color: #0F52BA;
+  width: 100%;
+  height: 101px; 
+}
+
+.App {
+  width: 1890px;
+  height: 985px;
+  background-color: #2C2C2C;
+}
+
+
+.logo h1 {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 600;
+  margin-left: 65px;
+  padding: 20px;
+  padding-top: 28px;
+}
+
+.logo p {
+  font-family: "Montserrat";
+  color: #ffff;
+  font-weight: 100;
+  margin-left: 165px;
+  margin-top: -45px;
+}
+
+
+
+.Carrinho {
+  background-color: #FFFFFF;
+  width: 90px;
+  height: 45px;
+  border-radius: 8px;
+  margin-left: 1262px;
+  margin-top: -39px;
+  cursor: pointer;
+}
+
+.Carrinho img {
+  width: 19.01px;
+  margin-top: 3px;
+  padding: 10px;
+}
+
+.Carrinho p {
+  position: relative;
+  font-family: "Montserrat";
+  margin-left: 60px;
+  line-height: 21.94px;
+  margin-top: -32px;
+}
+
+
+
+
+.produtos {
+  width: 938px;
+  height: 601px;
+  display: grid;
+  grid-template-columns: repeat(4,3fr);
+  margin-top: 120px;
+  margin-left: 50px;
+  background-color: #2222;
+}
+
+.produto1 {
+  width: 218px;
+  height: 285px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  margin-left: 227px;
+}
+
+
+.produto1 img {
+  width: 111px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.produto1 h1 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: #2C2C2C;
+  width: 124px;
+  margin-left: 14px;
+}
+
+.produto1 span {
+  color: #2C2C2C;
+  width: 192px;
+  height: 25px; 
+  margin-left: 14px;
+  margin-top: 216px;
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: center;
+}
+
+.produto1 button {
+  width: 220px;
+height: 31.91px;
+top: 253px;
+background-color:#0F52BA; 
+color: #FFFFFF;
+border-radius: 0px 0px 8px 8px;
+font-family: "Montserrat";
+}
+
+
+.produto1 .preço {
+  background-color: #373737;
+  color: #FFFFFF;
+  width: 64px;
+  height: 26px;
+  margin-left: 142px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: -70px;
+  margin-bottom: 45px;
+}
+
+.produto1 .preço tr {
+  font-family: "Montserrat";
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+
+.produto2 {
+  width: 218px;
+  height: 287px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  margin-left: 47px;
+}
+
+.produto2 img {
+  width: 54.79px;
+  height: 138px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.produto2 h1 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: #2C2C2C;
+  width: 124px;
+  margin-left: 14px;
+}
+
+.produto2 span {
+  color: #2C2C2C;
+  width: 192px;
+  height: 25px; 
+  margin-left: 14px;
+  margin-top: 216px;
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: center;
+}
+
+.produto2 button {
+  width: 220px;
+height: 31.91px;
+top: 253px;
+background-color:#0F52BA; 
+color: #FFFFFF;
+border-radius: 0px 0px 8px 8px;
+font-family: "Montserrat";
+}
+
+.produto2 .preço {
+  background-color: #373737;
+  color: #FFFFFF;
+  width: 64px;
+  height: 26px;
+  margin-left: 142px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: -70px;
+  margin-bottom: 45px;
+}
+
+.produto2 .preço tr {
+  font-family: "Montserrat";
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+
+.produto3 {
+  width: 218px;
+  height: 285px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  margin-left: 30px;
+}
+
+
+.produto3 img {
+  width: 147.86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.produto3 h1 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: #2C2C2C;
+  width: 124px;
+  margin-left: 14px;
+}
+
+.produto3 span {
+  color: #2C2C2C;
+  width: 192px;
+  height: 25px; 
+  margin-left: 14px;
+  margin-top: 216px;
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: center;
+}
+
+.produto3 button {
+  width: 220px;
+height: 31.91px;
+top: 253px;
+background-color:#0F52BA; 
+color: #FFFFFF;
+border-radius: 0px 0px 8px 8px;
+font-family: "Montserrat";
+}
+
+.produto3 .preço {
+  background-color: #373737;
+  color: #FFFFFF;
+  width: 64px;
+  height: 26px;
+  margin-left: 142px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: -70px;
+  margin-bottom: 45px;
+}
+
+.produto3 .preço tr {
+  font-family: "Montserrat";
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.produto4 {
+  width: 218px;
+  height: 285px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  margin-left: 25px;
+}
+
+.produto4 img {
+  width: 97.06px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.produto4 h1 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: #2C2C2C;
+  width: 124px;
+  margin-left: 14px;
+}
+
+.produto4 span {
+  color: #2C2C2C;
+  width: 192px;
+  height: 25px; 
+  margin-left: 14px;
+  margin-top: 216px;
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: center;
+}
+
+.produto4 button {
+  width: 220px;
+height: 31.91px;
+top: 253px;
+background-color:#0F52BA; 
+color: #FFFFFF;
+border-radius: 0px 0px 8px 8px;
+font-family: "Montserrat";
+}
+
+.produto4 .preço {
+  background-color: #373737;
+  color: #FFFFFF;
+  width: 64px;
+  height: 26px;
+  margin-left: 142px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: -70px;
+  margin-bottom: 45px;
+}
+
+.produto4 .preço tr {
+  font-family: "Montserrat";
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.produto5 {
+  width: 218px;
+  height: 285px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  margin-left: 227px;
+  margin-top: 30px;
+}
+
+.produto5 img {
+  width: 171.62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.produto5 h1 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: #2C2C2C;
+  width: 124px;
+  margin-left: 14px;
+}
+
+.produto5 span {
+  color: #2C2C2C;
+  width: 192px;
+  height: 25px; 
+  margin-left: 14px;
+  margin-top: 216px;
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: center;
+}
+
+.produto5 button {
+  width: 220px;
+height: 31.91px;
+top: 253px;
+background-color:#0F52BA; 
+color: #FFFFFF;
+border-radius: 0px 0px 8px 8px;
+font-family: "Montserrat";
+}
+
+.produto5 .preço {
+  background-color: #373737;
+  color: #FFFFFF;
+  width: 69px;
+  height: 26px;
+  margin-left: 142px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: -70px;
+  margin-bottom: 45px;
+}
+
+.produto5 .preço tr {
+  font-family: "Montserrat";
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.produto6 {
+  width: 218px;
+  height: 285px;
+  background-color: #FFFFFF;
+  border-radius: 8px; 
+  margin-left: 45px;
+  margin-top: 25px;
+}
+
+
+
+
+.produto6 img {
+  width: 121.64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.produto6 h1 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: #2C2C2C;
+  width: 124px;
+  margin-left: 14px;
+}
+
+.produto6 span {
+  color: #2C2C2C;
+  width: 192px;
+  height: 25px; 
+  margin-left: 14px;
+  margin-top: 216px;
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: center;
+}
+
+.produto6 button {
+  width: 220px;
+height: 31.91px;
+top: 253px;
+background-color:#0F52BA; 
+color: #FFFFFF;
+border-radius: 0px 0px 8px 8px;
+font-family: "Montserrat";
+}
+
+.produto6 .preço {
+  background-color: #373737;
+  color: #FFFFFF;
+  width: 64px;
+  height: 26px;
+  margin-left: 142px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: -70px;
+  margin-bottom: 45px;
+}
+
+.produto6 .preço tr {
+  font-family: "Montserrat";
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+
+.produto7 {
+  width: 218px;
+  height: 285px;
+  background-color: #FFFFFF;
+  border-radius: 8px; 
+  margin-left: 30px;
+  margin-top: 25px;
+}
+
+.produto7 img {
+  width: 112.41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.produto7 h1 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: #2C2C2C;
+  width: 124px;
+  margin-left: 14px;
+}
+
+.produto7 span {
+  color: #2C2C2C;
+  width: 192px;
+  height: 25px; 
+  margin-left: 14px;
+  margin-top: 216px;
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: center;
+}
+
+.produto7 button {
+  width: 220px;
+height: 31.91px;
+top: 253px;
+background-color:#0F52BA; 
+color: #FFFFFF;
+border-radius: 0px 0px 8px 8px;
+font-family: "Montserrat";
+}
+
+.produto7 .preço {
+  background-color: #373737;
+  color: #FFFFFF;
+  width: 64px;
+  height: 26px;
+  margin-left: 142px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: -70px;
+  margin-bottom: 45px;
+}
+
+.produto7 .preço tr {
+  font-family: "Montserrat";
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+
+
+
+.produto8 img {
+  width: 64px;
+}
+
+.produto6 h1 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: #2C2C2C;
+  width: 124px;
+  margin-left: 14px;
+}
+
+.produto6 span {
+  color: #2C2C2C;
+  width: 192px;
+  height: 25px; 
+  margin-left: 14px;
+  margin-top: 216px;
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: center;
+}
+
+.produto6 button {
+  width: 220px;
+height: 31.91px;
+top: 253px;
+background-color:#0F52BA; 
+color: #FFFFFF;
+border-radius: 0px 0px 8px 8px;
+font-family: "Montserrat";
+}
+
+.produto6 .preço {
+  background-color: #373737;
+  color: #FFFFFF;
+  width: 64px;
+  height: 26px;
+  margin-left: 142px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: -70px;
+  margin-bottom: 45px;
+}
+
+.produto6 .preço tr {
+  font-family: "Montserrat";
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+
+.produto8 {
+  width: 218px;
+  height: 285px;
+  background-color: #FFFFFF;
+  border-radius: 8px; 
+  margin-left: 25px;
+  margin-top: 28px;
+}
+
+.produto8 img {
+  width: 172px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.produto8 h1 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: #2C2C2C;
+  width: 124px;
+  margin-left: 14px;
+}
+
+.produto8 span {
+  color: #2C2C2C;
+  width: 192px;
+  height: 25px; 
+  margin-left: 14px;
+  margin-top: 216px;
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: center;
+}
+
+.produto8 button {
+  width: 220px;
+height: 31.91px;
+top: 253px;
+background-color:#0F52BA; 
+color: #FFFFFF;
+border-radius: 0px 0px 8px 8px;
+font-family: "Montserrat";
+}
+
+.produto8 .preço {
+  background-color: #373737;
+  color: #FFFFFF;
+  width: 64px;
+  height: 26px;
+  margin-left: 142px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: -70px;
+  margin-bottom: 45px;
+}
+
+.produto8 .preço tr {
+  font-family: "Montserrat";
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+footer {
+  background-color: #EEEEEE;
+  height: 34px;
+  margin-top: 130px;
+}
+
+footer span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 9px;
+}
+
+/* MENU */
+
+.menu {
+  position: absolute;
+  z-index: 999;
+  display: none;
+  background-color: #0F52BA;
+  margin-top: 0;
+  width: 736px;
+  height: 989px;
+  left: 1154px;
+}
+
+.menu h1 {
+  color: #EEEEEE;
+  font-family: "Montserrat";
+font-size: 27px;
+font-weight: 700;
+line-height: 32.91px;
+text-align: left;
+width: 180px;
+height: 56px;
+margin-top: 36px;
+margin-left: 50px;
+text-align: center;
+}
+
+.menu h2 {
+  color: #EEEEEE;
+  width: 80px;
+height: 15px;
+margin-top: 790px;
+margin-bottom: 30px;
+font-family: "Montserrat";
+font-size: 28px;
+font-weight: 700;
+line-height: 15px;
+text-align: left;
+padding-left: 50px;
+}
+
+.menu button {
+  width: 100%;
+height: 97px;
+font-size: 30px;
+font-family: "Montserrat";
+color: #FFFFFF;
+background-color: black;
+}
+
+.open {
+  display: block;
+}
+
+.closecarrinho {
+  background-color: #2C2C2C;
+  position: absolute;
+  float: left;
+  color: #FFFFFF;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 680px;
+  border-radius: 30px;
+}
+
+.menu .closecarrinho  {
+  font-family: "Montserrat";
+  font-size: 29px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.menu span {
+  padding-left: 10px;
+}
+
