@@ -1,7 +1,7 @@
 {
   "name": "loja",
   "version": "0.1.0",
-  "homepage": "https://Guilherme-lima545.github.io/Teste-mks.git",
+  "homepage": "https://Guilherme-lima545.github.io/Teste-mks",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
